@@ -1,6 +1,6 @@
 ﻿namespace FinancialCalculator
 {
-    partial class Form1
+    partial class Form
     {
         /// <summary>
         /// Required designer variable.
@@ -34,9 +34,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(650, 340);
             this.Name = "Form1";
-            this.Text = "Financial engineering";
+            this.Text = "Calculadora Financiera";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

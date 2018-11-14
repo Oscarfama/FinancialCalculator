@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinancialCalculator
 {
-    public partial class Form1 :  MetroFramework.Forms.MetroForm
+    public partial class Form :  MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public Form()
         {
             InitializeComponent();
         }
