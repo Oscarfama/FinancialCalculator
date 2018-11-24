@@ -54,36 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Anexo1\USAnnFut.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Anexo1\USAnnFut.Designer.cs">
-      <DependentUpon>USAnnFut.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Anexo1\USAnnPres.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Anexo1\USAnnPres.Designer.cs">
-      <DependentUpon>USAnnPres.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Anexo1\USFutAnn.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Anexo1\USFutAnn.Designer.cs">
-      <DependentUpon>USFutAnn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Anexo1\USPresAnn.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Anexo1\USPresAnn.Designer.cs">
-      <DependentUpon>USPresAnn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Anexo1\USPresFut.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Anexo1\USPresFut.Designer.cs">
-      <DependentUpon>USPresFut.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,27 +68,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Anexo1\USFutPres.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Anexo1\USFutPres.Designer.cs">
-      <DependentUpon>USFutPres.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Anexo1\USAnnFut.resx">
-      <DependentUpon>USAnnFut.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Anexo1\USAnnPres.resx">
-      <DependentUpon>USAnnPres.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Anexo1\USFutAnn.resx">
-      <DependentUpon>USFutAnn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Anexo1\USPresAnn.resx">
-      <DependentUpon>USPresAnn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Anexo1\USPresFut.resx">
-      <DependentUpon>USPresFut.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form.resx">
       <DependentUpon>Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,9 +83,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Anexo1\USFutPres.resx">
-      <DependentUpon>USFutPres.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -151,5 +97,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
