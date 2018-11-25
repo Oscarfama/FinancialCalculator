@@ -35,11 +35,7 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.tab1 = new MetroFramework.Controls.MetroTabControl();
             this.tabpage1 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
-            this.metroTabPage6 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.lblFP = new MetroFramework.Controls.MetroLabel();
             this.txtPRESFP = new MetroFramework.Controls.MetroTextBox();
             this.txtPERFP = new MetroFramework.Controls.MetroTextBox();
@@ -48,6 +44,8 @@
             this.btn_FP = new MetroFramework.Controls.MetroButton();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.lblFA = new MetroFramework.Controls.MetroLabel();
             this.txtANFA = new MetroFramework.Controls.MetroTextBox();
             this.txtPERFA = new MetroFramework.Controls.MetroTextBox();
@@ -56,6 +54,8 @@
             this.btn_FA = new MetroFramework.Controls.MetroButton();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
             this.lblPF = new MetroFramework.Controls.MetroLabel();
             this.txtFUTPF = new MetroFramework.Controls.MetroTextBox();
             this.txtPERPF = new MetroFramework.Controls.MetroTextBox();
@@ -64,6 +64,8 @@
             this.btn_PF = new MetroFramework.Controls.MetroButton();
             this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
             this.Interestxt = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
             this.lblPA = new MetroFramework.Controls.MetroLabel();
             this.txtANPA = new MetroFramework.Controls.MetroTextBox();
             this.txtPERPA = new MetroFramework.Controls.MetroTextBox();
@@ -72,6 +74,8 @@
             this.btn_PA = new MetroFramework.Controls.MetroButton();
             this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
             this.lblAF = new MetroFramework.Controls.MetroLabel();
             this.txtFUTAF = new MetroFramework.Controls.MetroTextBox();
             this.txtPERAF = new MetroFramework.Controls.MetroTextBox();
@@ -80,20 +84,24 @@
             this.btn_AF = new MetroFramework.Controls.MetroButton();
             this.metroLabel17 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
+            this.metroTabPage6 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel23 = new MetroFramework.Controls.MetroLabel();
             this.lblAP = new MetroFramework.Controls.MetroLabel();
             this.txtPRESAP = new MetroFramework.Controls.MetroTextBox();
             this.txtPERAP = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel22 = new MetroFramework.Controls.MetroLabel();
             this.txtINTAP = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel21 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
             this.btn_AP = new MetroFramework.Controls.MetroButton();
-            this.metroLabel21 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel22 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel23 = new MetroFramework.Controls.MetroLabel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.metroLabel26 = new MetroFramework.Controls.MetroLabel();
+            this.lbl_IEF = new MetroFramework.Controls.MetroLabel();
+            this.txt_tasaNom = new MetroFramework.Controls.MetroTextBox();
+            this.txt_Peranio = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel25 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel24 = new MetroFramework.Controls.MetroLabel();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.tab1.SuspendLayout();
             this.tabpage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
@@ -101,6 +109,7 @@
             this.metroTabPage4.SuspendLayout();
             this.metroTabPage5.SuspendLayout();
             this.metroTabPage6.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_Factores
@@ -171,120 +180,15 @@
             this.tabpage1.VerticalScrollbarHighlightOnWheel = false;
             this.tabpage1.VerticalScrollbarSize = 10;
             // 
-            // metroTabPage2
+            // metroLabel4
             // 
-            this.metroTabPage2.Controls.Add(this.metroLabel8);
-            this.metroTabPage2.Controls.Add(this.lblFA);
-            this.metroTabPage2.Controls.Add(this.txtANFA);
-            this.metroTabPage2.Controls.Add(this.txtPERFA);
-            this.metroTabPage2.Controls.Add(this.txtINTFA);
-            this.metroTabPage2.Controls.Add(this.metroLabel5);
-            this.metroTabPage2.Controls.Add(this.btn_FA);
-            this.metroTabPage2.Controls.Add(this.metroLabel6);
-            this.metroTabPage2.Controls.Add(this.metroLabel7);
-            this.metroTabPage2.HorizontalScrollbarBarColor = true;
-            this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.HorizontalScrollbarSize = 10;
-            this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(663, 204);
-            this.metroTabPage2.TabIndex = 1;
-            this.metroTabPage2.Text = "F/A";
-            this.metroTabPage2.VerticalScrollbarBarColor = true;
-            this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.VerticalScrollbarSize = 10;
-            // 
-            // metroTabPage3
-            // 
-            this.metroTabPage3.Controls.Add(this.metroLabel11);
-            this.metroTabPage3.Controls.Add(this.lblPF);
-            this.metroTabPage3.Controls.Add(this.txtFUTPF);
-            this.metroTabPage3.Controls.Add(this.txtPERPF);
-            this.metroTabPage3.Controls.Add(this.txtINTPF);
-            this.metroTabPage3.Controls.Add(this.metroLabel9);
-            this.metroTabPage3.Controls.Add(this.btn_PF);
-            this.metroTabPage3.Controls.Add(this.metroLabel10);
-            this.metroTabPage3.Controls.Add(this.Interestxt);
-            this.metroTabPage3.HorizontalScrollbarBarColor = true;
-            this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.HorizontalScrollbarSize = 10;
-            this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(663, 204);
-            this.metroTabPage3.TabIndex = 2;
-            this.metroTabPage3.Text = "P/F";
-            this.metroTabPage3.VerticalScrollbarBarColor = true;
-            this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.VerticalScrollbarSize = 10;
-            // 
-            // metroTabPage4
-            // 
-            this.metroTabPage4.Controls.Add(this.metroLabel15);
-            this.metroTabPage4.Controls.Add(this.lblPA);
-            this.metroTabPage4.Controls.Add(this.txtANPA);
-            this.metroTabPage4.Controls.Add(this.txtPERPA);
-            this.metroTabPage4.Controls.Add(this.txtINTPA);
-            this.metroTabPage4.Controls.Add(this.metroLabel12);
-            this.metroTabPage4.Controls.Add(this.btn_PA);
-            this.metroTabPage4.Controls.Add(this.metroLabel13);
-            this.metroTabPage4.Controls.Add(this.metroLabel14);
-            this.metroTabPage4.HorizontalScrollbarBarColor = true;
-            this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.HorizontalScrollbarSize = 10;
-            this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage4.Name = "metroTabPage4";
-            this.metroTabPage4.Size = new System.Drawing.Size(663, 204);
-            this.metroTabPage4.TabIndex = 3;
-            this.metroTabPage4.Text = "P/A";
-            this.metroTabPage4.VerticalScrollbarBarColor = true;
-            this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.VerticalScrollbarSize = 10;
-            // 
-            // metroTabPage5
-            // 
-            this.metroTabPage5.Controls.Add(this.metroLabel19);
-            this.metroTabPage5.Controls.Add(this.lblAF);
-            this.metroTabPage5.Controls.Add(this.txtFUTAF);
-            this.metroTabPage5.Controls.Add(this.txtPERAF);
-            this.metroTabPage5.Controls.Add(this.txtINTAF);
-            this.metroTabPage5.Controls.Add(this.metroLabel16);
-            this.metroTabPage5.Controls.Add(this.btn_AF);
-            this.metroTabPage5.Controls.Add(this.metroLabel17);
-            this.metroTabPage5.Controls.Add(this.metroLabel18);
-            this.metroTabPage5.HorizontalScrollbarBarColor = true;
-            this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage5.HorizontalScrollbarSize = 10;
-            this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage5.Name = "metroTabPage5";
-            this.metroTabPage5.Size = new System.Drawing.Size(663, 204);
-            this.metroTabPage5.TabIndex = 4;
-            this.metroTabPage5.Text = "A/F";
-            this.metroTabPage5.VerticalScrollbarBarColor = true;
-            this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage5.VerticalScrollbarSize = 10;
-            // 
-            // metroTabPage6
-            // 
-            this.metroTabPage6.Controls.Add(this.metroLabel23);
-            this.metroTabPage6.Controls.Add(this.lblAP);
-            this.metroTabPage6.Controls.Add(this.txtPRESAP);
-            this.metroTabPage6.Controls.Add(this.txtPERAP);
-            this.metroTabPage6.Controls.Add(this.metroLabel22);
-            this.metroTabPage6.Controls.Add(this.txtINTAP);
-            this.metroTabPage6.Controls.Add(this.metroLabel21);
-            this.metroTabPage6.Controls.Add(this.metroLabel20);
-            this.metroTabPage6.Controls.Add(this.btn_AP);
-            this.metroTabPage6.HorizontalScrollbarBarColor = true;
-            this.metroTabPage6.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage6.HorizontalScrollbarSize = 10;
-            this.metroTabPage6.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage6.Name = "metroTabPage6";
-            this.metroTabPage6.Size = new System.Drawing.Size(663, 204);
-            this.metroTabPage6.TabIndex = 5;
-            this.metroTabPage6.Text = "A/P";
-            this.metroTabPage6.VerticalScrollbarBarColor = true;
-            this.metroTabPage6.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage6.VerticalScrollbarSize = 10;
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel4.Location = new System.Drawing.Point(490, 60);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(99, 19);
+            this.metroLabel4.TabIndex = 15;
+            this.metroLabel4.Text = "Valor Futuro: ";
             // 
             // lblFP
             // 
@@ -421,6 +325,39 @@
             this.metroLabel1.TabIndex = 8;
             this.metroLabel1.Text = "Interes:";
             // 
+            // metroTabPage2
+            // 
+            this.metroTabPage2.Controls.Add(this.metroLabel8);
+            this.metroTabPage2.Controls.Add(this.lblFA);
+            this.metroTabPage2.Controls.Add(this.txtANFA);
+            this.metroTabPage2.Controls.Add(this.txtPERFA);
+            this.metroTabPage2.Controls.Add(this.txtINTFA);
+            this.metroTabPage2.Controls.Add(this.metroLabel5);
+            this.metroTabPage2.Controls.Add(this.btn_FA);
+            this.metroTabPage2.Controls.Add(this.metroLabel6);
+            this.metroTabPage2.Controls.Add(this.metroLabel7);
+            this.metroTabPage2.HorizontalScrollbarBarColor = true;
+            this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage2.HorizontalScrollbarSize = 10;
+            this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage2.Name = "metroTabPage2";
+            this.metroTabPage2.Size = new System.Drawing.Size(663, 204);
+            this.metroTabPage2.TabIndex = 1;
+            this.metroTabPage2.Text = "F/A";
+            this.metroTabPage2.VerticalScrollbarBarColor = true;
+            this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage2.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel8.Location = new System.Drawing.Point(490, 60);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(99, 19);
+            this.metroLabel8.TabIndex = 30;
+            this.metroLabel8.Text = "Valor Futuro: ";
+            // 
             // lblFA
             // 
             this.lblFA.AutoSize = true;
@@ -555,6 +492,39 @@
             this.metroLabel7.Size = new System.Drawing.Size(50, 19);
             this.metroLabel7.TabIndex = 23;
             this.metroLabel7.Text = "Interes:";
+            // 
+            // metroTabPage3
+            // 
+            this.metroTabPage3.Controls.Add(this.metroLabel11);
+            this.metroTabPage3.Controls.Add(this.lblPF);
+            this.metroTabPage3.Controls.Add(this.txtFUTPF);
+            this.metroTabPage3.Controls.Add(this.txtPERPF);
+            this.metroTabPage3.Controls.Add(this.txtINTPF);
+            this.metroTabPage3.Controls.Add(this.metroLabel9);
+            this.metroTabPage3.Controls.Add(this.btn_PF);
+            this.metroTabPage3.Controls.Add(this.metroLabel10);
+            this.metroTabPage3.Controls.Add(this.Interestxt);
+            this.metroTabPage3.HorizontalScrollbarBarColor = true;
+            this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage3.HorizontalScrollbarSize = 10;
+            this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage3.Name = "metroTabPage3";
+            this.metroTabPage3.Size = new System.Drawing.Size(663, 204);
+            this.metroTabPage3.TabIndex = 2;
+            this.metroTabPage3.Text = "P/F";
+            this.metroTabPage3.VerticalScrollbarBarColor = true;
+            this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage3.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel11
+            // 
+            this.metroLabel11.AutoSize = true;
+            this.metroLabel11.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel11.Location = new System.Drawing.Point(490, 60);
+            this.metroLabel11.Name = "metroLabel11";
+            this.metroLabel11.Size = new System.Drawing.Size(114, 19);
+            this.metroLabel11.TabIndex = 23;
+            this.metroLabel11.Text = "Valor Presente: ";
             // 
             // lblPF
             // 
@@ -691,6 +661,39 @@
             this.Interestxt.TabIndex = 16;
             this.Interestxt.Text = "Interes:";
             // 
+            // metroTabPage4
+            // 
+            this.metroTabPage4.Controls.Add(this.metroLabel15);
+            this.metroTabPage4.Controls.Add(this.lblPA);
+            this.metroTabPage4.Controls.Add(this.txtANPA);
+            this.metroTabPage4.Controls.Add(this.txtPERPA);
+            this.metroTabPage4.Controls.Add(this.txtINTPA);
+            this.metroTabPage4.Controls.Add(this.metroLabel12);
+            this.metroTabPage4.Controls.Add(this.btn_PA);
+            this.metroTabPage4.Controls.Add(this.metroLabel13);
+            this.metroTabPage4.Controls.Add(this.metroLabel14);
+            this.metroTabPage4.HorizontalScrollbarBarColor = true;
+            this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage4.HorizontalScrollbarSize = 10;
+            this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage4.Name = "metroTabPage4";
+            this.metroTabPage4.Size = new System.Drawing.Size(663, 204);
+            this.metroTabPage4.TabIndex = 3;
+            this.metroTabPage4.Text = "P/A";
+            this.metroTabPage4.VerticalScrollbarBarColor = true;
+            this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage4.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel15
+            // 
+            this.metroLabel15.AutoSize = true;
+            this.metroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel15.Location = new System.Drawing.Point(490, 60);
+            this.metroLabel15.Name = "metroLabel15";
+            this.metroLabel15.Size = new System.Drawing.Size(114, 19);
+            this.metroLabel15.TabIndex = 37;
+            this.metroLabel15.Text = "Valor Presente: ";
+            // 
             // lblPA
             // 
             this.lblPA.AutoSize = true;
@@ -825,6 +828,39 @@
             this.metroLabel14.Size = new System.Drawing.Size(50, 19);
             this.metroLabel14.TabIndex = 30;
             this.metroLabel14.Text = "Interes:";
+            // 
+            // metroTabPage5
+            // 
+            this.metroTabPage5.Controls.Add(this.metroLabel19);
+            this.metroTabPage5.Controls.Add(this.lblAF);
+            this.metroTabPage5.Controls.Add(this.txtFUTAF);
+            this.metroTabPage5.Controls.Add(this.txtPERAF);
+            this.metroTabPage5.Controls.Add(this.txtINTAF);
+            this.metroTabPage5.Controls.Add(this.metroLabel16);
+            this.metroTabPage5.Controls.Add(this.btn_AF);
+            this.metroTabPage5.Controls.Add(this.metroLabel17);
+            this.metroTabPage5.Controls.Add(this.metroLabel18);
+            this.metroTabPage5.HorizontalScrollbarBarColor = true;
+            this.metroTabPage5.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage5.HorizontalScrollbarSize = 10;
+            this.metroTabPage5.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage5.Name = "metroTabPage5";
+            this.metroTabPage5.Size = new System.Drawing.Size(663, 204);
+            this.metroTabPage5.TabIndex = 4;
+            this.metroTabPage5.Text = "A/F";
+            this.metroTabPage5.VerticalScrollbarBarColor = true;
+            this.metroTabPage5.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage5.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel19
+            // 
+            this.metroLabel19.AutoSize = true;
+            this.metroLabel19.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel19.Location = new System.Drawing.Point(490, 60);
+            this.metroLabel19.Name = "metroLabel19";
+            this.metroLabel19.Size = new System.Drawing.Size(94, 19);
+            this.metroLabel19.TabIndex = 44;
+            this.metroLabel19.Text = "Valor Anual: ";
             // 
             // lblAF
             // 
@@ -961,6 +997,39 @@
             this.metroLabel18.TabIndex = 37;
             this.metroLabel18.Text = "Interes:";
             // 
+            // metroTabPage6
+            // 
+            this.metroTabPage6.Controls.Add(this.metroLabel23);
+            this.metroTabPage6.Controls.Add(this.lblAP);
+            this.metroTabPage6.Controls.Add(this.txtPRESAP);
+            this.metroTabPage6.Controls.Add(this.txtPERAP);
+            this.metroTabPage6.Controls.Add(this.metroLabel22);
+            this.metroTabPage6.Controls.Add(this.txtINTAP);
+            this.metroTabPage6.Controls.Add(this.metroLabel21);
+            this.metroTabPage6.Controls.Add(this.metroLabel20);
+            this.metroTabPage6.Controls.Add(this.btn_AP);
+            this.metroTabPage6.HorizontalScrollbarBarColor = true;
+            this.metroTabPage6.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroTabPage6.HorizontalScrollbarSize = 10;
+            this.metroTabPage6.Location = new System.Drawing.Point(4, 38);
+            this.metroTabPage6.Name = "metroTabPage6";
+            this.metroTabPage6.Size = new System.Drawing.Size(663, 204);
+            this.metroTabPage6.TabIndex = 5;
+            this.metroTabPage6.Text = "A/P";
+            this.metroTabPage6.VerticalScrollbarBarColor = true;
+            this.metroTabPage6.VerticalScrollbarHighlightOnWheel = false;
+            this.metroTabPage6.VerticalScrollbarSize = 10;
+            // 
+            // metroLabel23
+            // 
+            this.metroLabel23.AutoSize = true;
+            this.metroLabel23.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel23.Location = new System.Drawing.Point(490, 60);
+            this.metroLabel23.Name = "metroLabel23";
+            this.metroLabel23.Size = new System.Drawing.Size(94, 19);
+            this.metroLabel23.TabIndex = 51;
+            this.metroLabel23.Text = "Valor Anual: ";
+            // 
             // lblAP
             // 
             this.lblAP.AutoSize = true;
@@ -1029,6 +1098,15 @@
             this.txtPERAP.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtPERAP.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // metroLabel22
+            // 
+            this.metroLabel22.AutoSize = true;
+            this.metroLabel22.Location = new System.Drawing.Point(177, 19);
+            this.metroLabel22.Name = "metroLabel22";
+            this.metroLabel22.Size = new System.Drawing.Size(50, 19);
+            this.metroLabel22.TabIndex = 44;
+            this.metroLabel22.Text = "Interes:";
+            // 
             // txtINTAP
             // 
             // 
@@ -1059,6 +1137,15 @@
             this.txtINTAP.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtINTAP.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // metroLabel21
+            // 
+            this.metroLabel21.AutoSize = true;
+            this.metroLabel21.Location = new System.Drawing.Point(177, 63);
+            this.metroLabel21.Name = "metroLabel21";
+            this.metroLabel21.Size = new System.Drawing.Size(63, 19);
+            this.metroLabel21.TabIndex = 45;
+            this.metroLabel21.Text = "Periodos:";
+            // 
             // metroLabel20
             // 
             this.metroLabel20.AutoSize = true;
@@ -1078,89 +1165,133 @@
             this.btn_AP.UseSelectable = true;
             this.btn_AP.Click += new System.EventHandler(this.btn_AP_Click);
             // 
-            // metroLabel21
+            // panel1
             // 
-            this.metroLabel21.AutoSize = true;
-            this.metroLabel21.Location = new System.Drawing.Point(177, 63);
-            this.metroLabel21.Name = "metroLabel21";
-            this.metroLabel21.Size = new System.Drawing.Size(63, 19);
-            this.metroLabel21.TabIndex = 45;
-            this.metroLabel21.Text = "Periodos:";
+            this.panel1.Controls.Add(this.metroLabel26);
+            this.panel1.Controls.Add(this.lbl_IEF);
+            this.panel1.Controls.Add(this.txt_tasaNom);
+            this.panel1.Controls.Add(this.txt_Peranio);
+            this.panel1.Controls.Add(this.metroLabel25);
+            this.panel1.Controls.Add(this.metroLabel24);
+            this.panel1.Controls.Add(this.metroButton1);
+            this.panel1.Location = new System.Drawing.Point(27, 76);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(660, 152);
+            this.panel1.TabIndex = 4;
+            this.panel1.Visible = false;
             // 
-            // metroLabel22
+            // metroLabel26
             // 
-            this.metroLabel22.AutoSize = true;
-            this.metroLabel22.Location = new System.Drawing.Point(177, 19);
-            this.metroLabel22.Name = "metroLabel22";
-            this.metroLabel22.Size = new System.Drawing.Size(50, 19);
-            this.metroLabel22.TabIndex = 44;
-            this.metroLabel22.Text = "Interes:";
+            this.metroLabel26.AutoSize = true;
+            this.metroLabel26.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.metroLabel26.Location = new System.Drawing.Point(464, 67);
+            this.metroLabel26.Name = "metroLabel26";
+            this.metroLabel26.Size = new System.Drawing.Size(119, 19);
+            this.metroLabel26.TabIndex = 17;
+            this.metroLabel26.Text = "Interes Efectivo: ";
             // 
-            // metroLabel4
+            // lbl_IEF
             // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel4.Location = new System.Drawing.Point(490, 60);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(99, 19);
-            this.metroLabel4.TabIndex = 15;
-            this.metroLabel4.Text = "Valor Futuro: ";
+            this.lbl_IEF.AutoSize = true;
+            this.lbl_IEF.Location = new System.Drawing.Point(484, 107);
+            this.lbl_IEF.Name = "lbl_IEF";
+            this.lbl_IEF.Size = new System.Drawing.Size(0, 0);
+            this.lbl_IEF.TabIndex = 16;
             // 
-            // metroLabel8
+            // txt_tasaNom
             // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel8.Location = new System.Drawing.Point(490, 60);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(99, 19);
-            this.metroLabel8.TabIndex = 30;
-            this.metroLabel8.Text = "Valor Futuro: ";
             // 
-            // metroLabel11
             // 
-            this.metroLabel11.AutoSize = true;
-            this.metroLabel11.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel11.Location = new System.Drawing.Point(490, 60);
-            this.metroLabel11.Name = "metroLabel11";
-            this.metroLabel11.Size = new System.Drawing.Size(114, 19);
-            this.metroLabel11.TabIndex = 23;
-            this.metroLabel11.Text = "Valor Presente: ";
             // 
-            // metroLabel15
+            this.txt_tasaNom.CustomButton.Image = null;
+            this.txt_tasaNom.CustomButton.Location = new System.Drawing.Point(72, 1);
+            this.txt_tasaNom.CustomButton.Name = "";
+            this.txt_tasaNom.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txt_tasaNom.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txt_tasaNom.CustomButton.TabIndex = 1;
+            this.txt_tasaNom.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txt_tasaNom.CustomButton.UseSelectable = true;
+            this.txt_tasaNom.CustomButton.Visible = false;
+            this.txt_tasaNom.Lines = new string[0];
+            this.txt_tasaNom.Location = new System.Drawing.Point(291, 78);
+            this.txt_tasaNom.MaxLength = 32767;
+            this.txt_tasaNom.Name = "txt_tasaNom";
+            this.txt_tasaNom.PasswordChar = '\0';
+            this.txt_tasaNom.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_tasaNom.SelectedText = "";
+            this.txt_tasaNom.SelectionLength = 0;
+            this.txt_tasaNom.SelectionStart = 0;
+            this.txt_tasaNom.ShortcutsEnabled = true;
+            this.txt_tasaNom.Size = new System.Drawing.Size(94, 23);
+            this.txt_tasaNom.TabIndex = 4;
+            this.txt_tasaNom.UseSelectable = true;
+            this.txt_tasaNom.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txt_tasaNom.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            this.metroLabel15.AutoSize = true;
-            this.metroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel15.Location = new System.Drawing.Point(490, 60);
-            this.metroLabel15.Name = "metroLabel15";
-            this.metroLabel15.Size = new System.Drawing.Size(114, 19);
-            this.metroLabel15.TabIndex = 37;
-            this.metroLabel15.Text = "Valor Presente: ";
+            // txt_Peranio
             // 
-            // metroLabel19
             // 
-            this.metroLabel19.AutoSize = true;
-            this.metroLabel19.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel19.Location = new System.Drawing.Point(490, 60);
-            this.metroLabel19.Name = "metroLabel19";
-            this.metroLabel19.Size = new System.Drawing.Size(94, 19);
-            this.metroLabel19.TabIndex = 44;
-            this.metroLabel19.Text = "Valor Anual: ";
             // 
-            // metroLabel23
             // 
-            this.metroLabel23.AutoSize = true;
-            this.metroLabel23.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel23.Location = new System.Drawing.Point(490, 60);
-            this.metroLabel23.Name = "metroLabel23";
-            this.metroLabel23.Size = new System.Drawing.Size(94, 19);
-            this.metroLabel23.TabIndex = 51;
-            this.metroLabel23.Text = "Valor Anual: ";
+            this.txt_Peranio.CustomButton.Image = null;
+            this.txt_Peranio.CustomButton.Location = new System.Drawing.Point(72, 1);
+            this.txt_Peranio.CustomButton.Name = "";
+            this.txt_Peranio.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txt_Peranio.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txt_Peranio.CustomButton.TabIndex = 1;
+            this.txt_Peranio.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txt_Peranio.CustomButton.UseSelectable = true;
+            this.txt_Peranio.CustomButton.Visible = false;
+            this.txt_Peranio.Lines = new string[0];
+            this.txt_Peranio.Location = new System.Drawing.Point(291, 35);
+            this.txt_Peranio.MaxLength = 32767;
+            this.txt_Peranio.Name = "txt_Peranio";
+            this.txt_Peranio.PasswordChar = '\0';
+            this.txt_Peranio.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_Peranio.SelectedText = "";
+            this.txt_Peranio.SelectionLength = 0;
+            this.txt_Peranio.SelectionStart = 0;
+            this.txt_Peranio.ShortcutsEnabled = true;
+            this.txt_Peranio.Size = new System.Drawing.Size(94, 23);
+            this.txt_Peranio.TabIndex = 3;
+            this.txt_Peranio.UseSelectable = true;
+            this.txt_Peranio.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txt_Peranio.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // metroLabel25
+            // 
+            this.metroLabel25.AutoSize = true;
+            this.metroLabel25.Location = new System.Drawing.Point(166, 39);
+            this.metroLabel25.Name = "metroLabel25";
+            this.metroLabel25.Size = new System.Drawing.Size(93, 19);
+            this.metroLabel25.TabIndex = 2;
+            this.metroLabel25.Text = "Periodos/ Año";
+            // 
+            // metroLabel24
+            // 
+            this.metroLabel24.AutoSize = true;
+            this.metroLabel24.Location = new System.Drawing.Point(172, 82);
+            this.metroLabel24.Name = "metroLabel24";
+            this.metroLabel24.Size = new System.Drawing.Size(87, 19);
+            this.metroLabel24.TabIndex = 1;
+            this.metroLabel24.Text = "Tasa Nominal";
+            // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(291, 126);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroButton1.TabIndex = 0;
+            this.metroButton1.Text = "Calcular";
+            this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click_1);
             // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(703, 334);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.tab1);
             this.Controls.Add(this.btn_Inversiones);
             this.Controls.Add(this.btn_Interes);
@@ -1181,6 +1312,8 @@
             this.metroTabPage5.PerformLayout();
             this.metroTabPage6.ResumeLayout(false);
             this.metroTabPage6.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1253,6 +1386,14 @@
         public MetroFramework.Controls.MetroLabel metroLabel15;
         public MetroFramework.Controls.MetroLabel metroLabel19;
         public MetroFramework.Controls.MetroLabel metroLabel23;
+        private System.Windows.Forms.Panel panel1;
+        private MetroFramework.Controls.MetroLabel metroLabel24;
+        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroTextBox txt_tasaNom;
+        private MetroFramework.Controls.MetroTextBox txt_Peranio;
+        private MetroFramework.Controls.MetroLabel metroLabel25;
+        private MetroFramework.Controls.MetroLabel metroLabel26;
+        private MetroFramework.Controls.MetroLabel lbl_IEF;
     }
 }
 

@@ -113,11 +113,14 @@ namespace FinancialCalculator
 
         private void btn_Factores_Click(object sender, EventArgs e)
         {
+            panel1.Visible = false;
             tab1.Visible = true;
+
         }
 
         private void btn_Interes_Click(object sender, EventArgs e)
         {
+            panel1.Visible = true;
             tab1.Visible = false;
         }
 
@@ -125,6 +128,19 @@ namespace FinancialCalculator
         {
             tab1.Visible = false;
 
+        }
+
+        private void metroButton1_Click_1(object sender, EventArgs e)
+        {
+            if(txt_tasaNom.Text == "" || txt_Peranio.Text == "")
+            {
+                errorMessage();
+                return;
+            }
+            double tasaNom = (Convert.ToDouble(txt_tasaNom.Text) / 100);
+            int NumPeriodos = Convert.ToInt16(txt_Peranio.Text);
+            var Res = (Math.Pow(1 + (tasaNom/NumPeriodos), NumPeriodos) - 1) *100;
+            lbl_IEF.Text = $"{Math.Round(Res,2).ToString()} %";
         }
     }
 }
