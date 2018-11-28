@@ -219,5 +219,11 @@ namespace FinancialCalculator
             double res =(Math.Log(1 + interes * (ValorFuturo / ValorAnual))) / (Math.Log(1 + interes));
             lbl_anFA.Text = Math.Round(res, 2).ToString();
         }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        {
+            this.Owner.Show();
+            this.Hide();
+        }
     }
 }

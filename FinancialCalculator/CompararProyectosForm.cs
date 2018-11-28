@@ -10,28 +10,22 @@ using System.Windows.Forms;
 
 namespace FinancialCalculator
 {
-    public partial class FormOption : MetroFramework.Forms.MetroForm
+    public partial class CompararProyectosForm : MetroFramework.Forms.MetroForm
     {
-        public FormOption()
+        public CompararProyectosForm()
         {
             InitializeComponent();
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
+        private void CompararProyectosForm_Load(object sender, EventArgs e)
         {
-            Form form = new Form();
-            form.Owner = this;
-            form.Show();
-            this.Hide();
+
         }
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
-            form.Owner = this;
-            form.Show();
+            this.Owner.Show();
             this.Hide();
-
         }
     }
 }
