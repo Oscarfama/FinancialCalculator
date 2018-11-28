@@ -1863,6 +1863,7 @@
             this.Controls.Add(this.btn_Factores);
             this.Name = "Form";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Form_Load);
             this.tab1.ResumeLayout(false);
             this.tabpage1.ResumeLayout(false);
             this.tabpage1.PerformLayout();

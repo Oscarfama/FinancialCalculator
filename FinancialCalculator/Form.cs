@@ -165,9 +165,9 @@ namespace FinancialCalculator
                 errorMessage();
                 return;
             }
-            double tasaNom = (Convert.ToDouble(txt_tasaNom.Text) / 100);
+            double tasaNom = (Convert.ToDouble(txt_tasaNom.Text));
             int NumPeriodos = Convert.ToInt16(txt_Peranio.Text);
-            var Res = (Math.Pow(1 + (tasaNom/NumPeriodos), NumPeriodos) - 1) *100;
+            var Res = (Math.Pow(1 + (tasaNom/NumPeriodos), NumPeriodos) - 1);
             lbl_IEF.Text = $"{Math.Round(Res,2).ToString()} %";
         }
 
@@ -224,6 +224,11 @@ namespace FinancialCalculator
         {
             this.Owner.Show();
             this.Hide();
+        }
+
+        private void Form_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
