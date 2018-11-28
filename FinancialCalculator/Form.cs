@@ -165,7 +165,7 @@ namespace FinancialCalculator
                 errorMessage();
                 return;
             }
-            double tasaNom = (Convert.ToDouble(txt_tasaNom.Text));
+            double tasaNom = (Convert.ToDouble(txt_tasaNom.Text)/100);
             int NumPeriodos = Convert.ToInt16(txt_Peranio.Text);
             var Res = (Math.Pow(1 + (tasaNom/NumPeriodos), NumPeriodos) - 1);
             lbl_IEF.Text = $"{Math.Round(Res,2).ToString()} %";
@@ -183,7 +183,7 @@ namespace FinancialCalculator
             double ValorFuturo = Convert.ToDouble(txt_ValFutFP.Text);
 
             double res = (Math.Log(ValorFuturo / ValorPresente)) / (Math.Log(1+ interes));
-            lbl_anFP.Text = Math.Round(res, 2).ToString();
+            lbl_anFP.Text = Math.Round(res, 0).ToString();
 
 
         }
@@ -201,7 +201,7 @@ namespace FinancialCalculator
 
             double res = -(Math.Log(1 - interes * (ValorPresente / ValorAnual))) / (Math.Log(1 + interes));
 
-            lbl_anPA.Text = Math.Round(res, 2).ToString();
+            lbl_anPA.Text = Math.Round(res, 0).ToString();
 
         }
 
@@ -217,13 +217,15 @@ namespace FinancialCalculator
             double ValorAnual = Convert.ToDouble(txt_ValAnFA.Text);
 
             double res =(Math.Log(1 + interes * (ValorFuturo / ValorAnual))) / (Math.Log(1 + interes));
-            lbl_anFA.Text = Math.Round(res, 2).ToString();
+            lbl_anFA.Text = Math.Round(res, 0).ToString();
         }
 
         private void metroButton5_Click(object sender, EventArgs e)
         {
-            this.Owner.Show();
+            FormOption form = new FormOption();
+            form.Show();
             this.Hide();
+            
         }
 
         private void Form_Load(object sender, EventArgs e)

@@ -24,7 +24,8 @@ namespace FinancialCalculator
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            this.Owner.Show();
+            Form1 form = new Form1();
+            form.Show();
             this.Hide();
         }
 
@@ -62,6 +63,24 @@ namespace FinancialCalculator
             producto2.calcularVAE();
             lbl_VNA2.Text = Convert.ToString(producto2.vna);
             lbl_VAE2.Text = Convert.ToString(producto2.vae);
+
+            int uno, dos;
+            uno = Convert.ToInt32(Prod1Per.Text);
+            dos = Convert.ToInt32(Prod2Per.Text);
+            if (uno == dos)
+            {
+                if (producto1.vna > producto2.vna)
+                    resultado.Text = "Producto 1";
+                else
+                    resultado.Text = "Producto 2";
+            }
+            else
+            {
+                if (producto1.vae > producto2.vae)
+                    resultado.Text = "Producto 1";
+                else
+                    resultado.Text = "Producto 2";
+            }
         }
     }
 }

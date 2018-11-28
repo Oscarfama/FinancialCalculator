@@ -37,5 +37,12 @@ namespace FinancialCalculator
             form.Show();
             this.Hide();
         }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            FormOption form = new FormOption();
+            form.Show();
+            this.Hide();
+        }
     }
 }

@@ -186,7 +186,7 @@
             this.tab1.Controls.Add(this.metroTabPage4);
             this.tab1.Controls.Add(this.metroTabPage5);
             this.tab1.Controls.Add(this.metroTabPage6);
-            this.tab1.Location = new System.Drawing.Point(23, 87);
+            this.tab1.Location = new System.Drawing.Point(135, 331);
             this.tab1.Name = "tab1";
             this.tab1.SelectedIndex = 0;
             this.tab1.Size = new System.Drawing.Size(671, 246);
@@ -1327,7 +1327,7 @@
             this.metroTabControl1.Controls.Add(this.metroTabPage1);
             this.metroTabControl1.Controls.Add(this.metroTabPage7);
             this.metroTabControl1.Controls.Add(this.metroTabPage8);
-            this.metroTabControl1.Location = new System.Drawing.Point(32, 79);
+            this.metroTabControl1.Location = new System.Drawing.Point(465, 339);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
             this.metroTabControl1.Size = new System.Drawing.Size(611, 245);
@@ -1853,7 +1853,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(703, 376);
+            this.ClientSize = new System.Drawing.Size(1056, 543);
             this.Controls.Add(this.metroButton5);
             this.Controls.Add(this.metroTabControl1);
             this.Controls.Add(this.tab1);

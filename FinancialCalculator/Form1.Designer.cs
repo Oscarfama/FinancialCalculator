@@ -30,6 +30,7 @@
         {
             this.btn_Producto = new MetroFramework.Controls.MetroButton();
             this.btn_Proyecto = new MetroFramework.Controls.MetroButton();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // btn_Producto
@@ -52,11 +53,22 @@
             this.btn_Proyecto.UseSelectable = true;
             this.btn_Proyecto.Click += new System.EventHandler(this.btn_Proyecto_Click);
             // 
+            // metroButton1
+            // 
+            this.metroButton1.Location = new System.Drawing.Point(74, 225);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroButton1.TabIndex = 2;
+            this.metroButton1.Text = "Regresar";
+            this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(721, 267);
+            this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.btn_Proyecto);
             this.Controls.Add(this.btn_Producto);
             this.Name = "Form1";
@@ -70,5 +82,6 @@
 
         private MetroFramework.Controls.MetroButton btn_Producto;
         private MetroFramework.Controls.MetroButton btn_Proyecto;
+        private MetroFramework.Controls.MetroButton metroButton1;
     }
 }

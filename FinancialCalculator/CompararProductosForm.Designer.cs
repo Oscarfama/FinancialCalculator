@@ -60,6 +60,8 @@
             this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
             this.btn_Comparar = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.resultado = new MetroFramework.Drawing.Html.HtmlLabel();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -546,7 +548,7 @@
             // 
             // btn_Comparar
             // 
-            this.btn_Comparar.Location = new System.Drawing.Point(322, 447);
+            this.btn_Comparar.Location = new System.Drawing.Point(295, 444);
             this.btn_Comparar.Name = "btn_Comparar";
             this.btn_Comparar.Size = new System.Drawing.Size(118, 38);
             this.btn_Comparar.TabIndex = 30;
@@ -564,11 +566,34 @@
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.Location = new System.Drawing.Point(251, 497);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(104, 19);
+            this.metroLabel10.TabIndex = 32;
+            this.metroLabel10.Text = "Es mas rentable:";
+            // 
+            // resultado
+            // 
+            this.resultado.AutoScroll = true;
+            this.resultado.AutoScrollMinSize = new System.Drawing.Size(17, 23);
+            this.resultado.AutoSize = false;
+            this.resultado.BackColor = System.Drawing.SystemColors.Window;
+            this.resultado.Location = new System.Drawing.Point(361, 497);
+            this.resultado.Name = "resultado";
+            this.resultado.Size = new System.Drawing.Size(75, 23);
+            this.resultado.TabIndex = 33;
+            this.resultado.Text = "?";
+            // 
             // CompararProductosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 539);
+            this.Controls.Add(this.resultado);
+            this.Controls.Add(this.metroLabel10);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.btn_Comparar);
             this.Controls.Add(this.lbl_VAE2);
@@ -643,5 +668,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel20;
         private MetroFramework.Controls.MetroButton btn_Comparar;
         private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroLabel metroLabel10;
+        private MetroFramework.Drawing.Html.HtmlLabel resultado;
     }
 }
